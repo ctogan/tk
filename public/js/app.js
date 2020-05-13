@@ -37393,8 +37393,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/teskemampuan/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Applications/XAMPP/xamppfiles/htdocs/teskemampuan/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/teskemam/public_html/tk/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/teskemam/public_html/tk/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
