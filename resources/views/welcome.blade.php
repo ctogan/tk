@@ -81,9 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Dear Theresia Situmorang
+                    Coming Soon!!!
                 </div>
-                <p>Good night yaa Sayang. Have a nice dream and I love you So much!!</p>
             </div>
         </div>
     </body>
