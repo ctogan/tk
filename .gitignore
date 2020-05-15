@@ -22,10 +22,7 @@ Homestead.json
 .phpunit.result.cache
 
 public/.htaccess
-public/favicon.ico
 public/index.php
-public/mix-manifest.json
-public/robots.txt
-public/web.config
+
 
 
