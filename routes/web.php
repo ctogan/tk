@@ -13,10 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('quiz');
-//});
+
 
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/admin', 'Admin\adminController@index')->name('admin');
+
+
+
+
+

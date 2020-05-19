@@ -36,7 +36,7 @@
 		<!-- begin:: Page -->
 		<div class="m-grid m-grid--hor m-grid--root m-page">
 			<!-- BEGIN: Header -->
-				@include('layout.users.header')
+				@include('layouts.admin.header')
 			<!-- END: Header -->		
 		<!-- begin::Body -->
 			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
@@ -46,13 +46,13 @@
 				</button>
 				<div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-dark ">
 					<!-- BEGIN: Aside Menu -->
-					@include('layout/users/sidemenu')
+					@include('layouts.admin.sidemenu')
 					<!-- END: Aside Menu -->
 				</div>	
 				<!-- END: Left Aside -->
 				<div class="m-grid__item m-grid__item--fluid m-wrapper">
 					<!-- BEGIN: Subheader -->
-					@include('layout/users/subheader')
+					@include('layouts.admin.subheader')
 					<!-- END: Subheader -->
 					@yield('content')
-		
+@include('layouts.admin.footer')
