@@ -143,7 +143,13 @@ if (! function_exists('asset')) {
      */
     function asset($path, $secure = null)
     {
-        return app('url')->asset("public/".$path, $secure);
+        if (app()->environment('production'))
+        {
+            return app('url')->asset("public/".$path, $secure);
+        }else{
+            return app('url')->asset($path, $secure);
+        }
+
     }
 }
 

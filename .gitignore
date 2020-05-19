@@ -21,7 +21,7 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-vendor/laravel/framework/src/Illuminate/Foundation/helpers.php
+
 
 
 
