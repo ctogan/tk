@@ -74,9 +74,9 @@
 				</a>
 			</li>
 		</ul>
-		<script src="{{asset('/assets/vendors/base/vendors.bundle.js')}}" type="text/javascript"></script>
-		<script src="{{asset('/assets/demo/demo3/base/scripts.bundle.js')}}" type="text/javascript"></script>
-		<script src="{{asset('/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js')}}" type="text/javascript"></script>
-		<script src="{{asset('/assets/app/js/dashboard.js')}}" type="text/javascript"></script>
+		<script src="{{asset('assets/vendors/base/vendors.bundle.js')}}" type="text/javascript"></script>
+		<script src="{{asset('assets/demo/demo3/base/scripts.bundle.js')}}" type="text/javascript"></script>
+		<script src="{{asset('assets/vendors/custom/fullcalendar/fullcalendar.bundle.js')}}" type="text/javascript"></script>
+		<script src="{{asset('assets/app/js/dashboard.js')}}" type="text/javascript"></script>
 	</body>
 </html>
